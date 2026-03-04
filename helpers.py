@@ -109,9 +109,11 @@ def display_interrogation(name, question, response, emoji=""):
 def display_notes(title, items):
     """Display investigator notes/takeaways between stages as a styled panel."""
     if isinstance(items, dict):
+        ul_style = "<ul style='margin:2px 0 2px 16px;padding:0'>"
         body = "".join(
             f"<div style='margin:4px 0'><span style='color:#81d4fa;font-weight:bold'>{k}:</span> "
-            f"{'<ul style=\"margin:2px 0 2px 16px;padding:0\">' + ''.join(f'<li>{i}</li>' for i in v) + '</ul>' if isinstance(v, list) else f' {v}'}</div>"
+            + (ul_style + "".join(f"<li>{i}</li>" for i in v) + "</ul>" if isinstance(v, list) else f" {v}")
+            + "</div>"
             for k, v in items.items()
         )
     else:

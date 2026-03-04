@@ -1,0 +1,70 @@
+{
+  "killer": "Larry",
+  "weapon": "Kitchen knife",
+  "motive": "Financial gain from the discovery of the treasure map and conflict over the cabin sale.",
+  "evidence": [
+    "Marcus's last text at 10:28pm indicating a conflict over ownership: 'I told you, it's mine now. Deal with it.'",
+    "The unlocked back door, suggesting someone left in a hurry or entered without permission.",
+    "Damp hiking boots belonging to Larry with fresh mud, contradicting his claim of not going outside after dinner.",
+    "The missing kitchen knife, which was later found in the dishwasher, indicating it was used in the crime and hastily cleaned up.",
+    "The cigarette butt found on the back porch, suggesting someone was outside and possibly involved in the altercation."
+  ],
+  "transcript": [
+    {
+      "action": "search",
+      "detail": "Searched Living Room"
+    },
+    {
+      "action": "search",
+      "detail": "Searched Kitchen"
+    },
+    {
+      "action": "search",
+      "detail": "Searched Mudroom / Back Entry"
+    },
+    {
+      "action": "search",
+      "detail": "Searched Upstairs Hallway"
+    },
+    {
+      "action": "search",
+      "detail": "Searched Back Porch"
+    },
+    {
+      "action": "search",
+      "detail": "Searched Marcus's Bedroom"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Diana Blackwood: What was the nature of your conversation with Marcus last night?"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Larry Hoffman: What can you tell me about the grandfather's map that Marcus mentioned?"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Tom Chen: Did you notice anything unusual around the time you heard Diana's door opening a"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Sofia Reyes: Why was your camera set up to take photos from 9:04pm to 11:27pm?"
+    },
+    {
+      "action": "response",
+      "detail": "Diana Blackwood: We had a rather civil discussion, if you can call it that. I confronted him about the emails I found"
+    },
+    {
+      "action": "response",
+      "detail": "Tom Chen: I didn't notice anything particularly unusual at that moment, but I did hear some raised voices comi"
+    },
+    {
+      "action": "response",
+      "detail": "Sofia Reyes: I was trying to capture the snowfall at night. Long-exposure photography requires a lot of time to g"
+    },
+    {
+      "action": "response",
+      "detail": "Larry Hoffman: Oh, the map? Yeah, we talked about it a bit back in college. You know, just some family stuff, nothi"
+    }
+  ]
+}
